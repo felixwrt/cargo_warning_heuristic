@@ -1,0 +1,7 @@
+[workspace]
+resolver = "2"
+members = [
+    "crate_with_warnings",
+    "main_crate_git_dependency",
+    "main_crate_path_dependency",
+]

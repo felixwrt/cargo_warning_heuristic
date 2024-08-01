@@ -1,0 +1,7 @@
+[package]
+name = "main_crate_git_dependency"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+crate_with_warnings = { git = "https://github.com/felixwrt/cargo_warning_heuristic.git", branch = "main" }

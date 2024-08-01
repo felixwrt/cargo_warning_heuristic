@@ -1,0 +1,7 @@
+[package]
+name = "main_crate_path_dependency"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+crate_with_warnings = { path = "../crate_with_warnings" }
